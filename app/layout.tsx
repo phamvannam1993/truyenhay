@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { JsonLd, organizationJsonLd, webSiteJsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.creator }],
   creator: siteConfig.creator,
   publisher: siteConfig.name,
+  keywords: ["truyện chữ", "tóm tắt truyện", "review truyện", "tiên hiệp", "huyền huyễn", "ngôn tình", "truyện hot"],
   alternates: { canonical: siteConfig.url },
   icons: {
     icon: [
@@ -35,6 +37,17 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     type: "website",
     siteName: siteConfig.name,
@@ -42,6 +55,20 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} - Tóm tắt truyện chữ, review truyện hay`,
     description: siteConfig.description,
     url: siteConfig.url,
+    images: [
+      {
+        url: `${siteConfig.url}/favicon/preview.png`,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteConfig.name} - Tóm tắt truyện chữ`,
+    description: siteConfig.description,
+    creator: "@truyenchu",
   },
 };
 
@@ -54,6 +81,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi">
+      <head>
+        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={webSiteJsonLd()} />
+      </head>
       <body>
         <GoogleAnalytics />
         <Header />

@@ -91,6 +91,42 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
   );
 }
 
+export function organizationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    logo: absolute("/favicon/icon-256x256.png", siteConfig.url),
+    description: siteConfig.description,
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: "vuontrithuviet@gmail.com",
+      url: absolute("/lien-he", siteConfig.url),
+    },
+  };
+}
+
+export function webSiteJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
+    inLanguage: "vi-VN",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteConfig.url}/tim-kiem?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
 export function breadcrumbJsonLd(items: Array<{ name: string; path: string }>) {
   return {
     "@context": "https://schema.org",

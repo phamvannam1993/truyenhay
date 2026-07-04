@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     url: `${siteConfig.url}/the-loai`,
     siteName: siteConfig.name,
     locale: "vi_VN",
-    type: "website",
     images: [{ url: "/images/category-hero.webp", width: 1200, height: 430, alt: "Thể loại truyện" }],
   },
 };

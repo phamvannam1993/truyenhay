@@ -77,12 +77,6 @@ export default async function StoryPage({ params }: PageProps) {
 
   return (
     <>
-      <JsonLd data={articleJsonLd({
-        title: `${story.title} - Tóm tắt truyện, review nhanh & gợi ý đọc`,
-        description: detail?.subtitle || story.excerpt,
-        path: story.path,
-        dateModified: story.updatedAt,
-      })} />
       <JsonLd data={breadcrumbJsonLd([
         { name: "Trang chủ", path: "/" },
         { name: story.title, path: story.path },
