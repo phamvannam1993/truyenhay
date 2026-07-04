@@ -16,8 +16,25 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.creator }],
   creator: siteConfig.creator,
   publisher: siteConfig.name,
-  formatDetection: { telephone: false },
   alternates: { canonical: siteConfig.url },
+  icons: {
+    icon: [
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon/favicon.ico", type: "image/x-icon" },
+    ],
+    apple: "/favicon/apple-touch-icon.png",
+  },
+  manifest: "/favicon/site.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: siteConfig.name,
+  },
+  formatDetection: {
+    telephone: false,
+  },
   openGraph: {
     type: "website",
     siteName: siteConfig.name,

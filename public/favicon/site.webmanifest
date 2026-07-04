@@ -1,0 +1,41 @@
+{
+  "name": "TruyenChu.vn - Tóm tắt truyện chữ hay",
+  "short_name": "TruyenChu",
+  "icons": [
+    {
+      "src": "/favicon/icon-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1f4aa6",
+  "background_color": "#f6f8fc",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
