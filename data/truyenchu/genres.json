@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "tien-hiep",
+    "title": "Tiên Hiệp",
+    "path": "/the-loai/tien-hiep",
+    "icon": "♜",
+    "color": "green",
+    "image": "/images/tien-hiep.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Khám phá những câu chuyện tiên hiệp kỳ ảo, nơi con người tu luyện, phi thăng và chạm tới thế giới rộng lớn đầy bí ẩn.",
+    "shortDescription": "Tu luyện, trường sinh, cảnh giới, môn phái và hành trình nghịch thiên cải mệnh.",
+    "countLabel": "25 truyện",
+    "readLabel": "256.8K lượt đọc",
+    "intro": [
+      "Thể loại Tiên Hiệp phù hợp với độc giả thích thế giới tu luyện, cảnh giới, môn phái, linh khí, pháp bảo và hành trình vượt qua số mệnh.",
+      "Các trang trong nhóm này ưu tiên tóm tắt nhanh, review dễ hiểu và gợi ý đọc, không đăng nguyên văn truyện gốc."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "huyen-huyen",
+    "title": "Huyền Huyễn",
+    "path": "/the-loai/huyen-huyen",
+    "icon": "☾",
+    "color": "purple",
+    "image": "/images/huyen-huyen.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Thế giới huyền bí, phép thuật, linh thú, thần tộc và những bí ẩn cổ xưa.",
+    "shortDescription": "Bối cảnh kỳ ảo, sức mạnh siêu nhiên và những cuộc phiêu lưu nhiều lớp bí mật.",
+    "countLabel": "25 truyện",
+    "readLabel": "198.4K lượt đọc",
+    "intro": [
+      "Huyền Huyễn tập trung vào thế giới kỳ ảo, hệ thống sức mạnh rộng và nhiều tuyến nhân vật có màu sắc truyền kỳ."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "kiem-hiep",
+    "title": "Kiếm Hiệp",
+    "path": "/the-loai/kiem-hiep",
+    "icon": "⚔",
+    "color": "blue",
+    "image": "/images/kiem-hiep.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Giang hồ, ân oán, võ công cao cường và những trận đấu kinh thiên.",
+    "shortDescription": "Khí chất giang hồ, kiếm pháp, hiệp nghĩa và lựa chọn giữa tình – nghĩa – thù.",
+    "countLabel": "3 truyện",
+    "readLabel": "172.1K lượt đọc",
+    "intro": [
+      "Kiếm Hiệp phù hợp với độc giả thích ân oán giang hồ, võ học, tình nghĩa huynh đệ và tinh thần hành hiệp."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "ngon-tinh",
+    "title": "Ngôn Tình",
+    "path": "/the-loai/ngon-tinh",
+    "icon": "♥",
+    "color": "rose",
+    "image": "/images/ngon-tinh.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Tình yêu ngọt ngào, lãng mạn, day dứt và những câu chuyện chạm tim.",
+    "shortDescription": "Tình cảm, lựa chọn, chữa lành, ngược tâm hoặc sủng ngọt theo nhiều sắc thái.",
+    "countLabel": "74 truyện",
+    "readLabel": "301.6K lượt đọc",
+    "intro": [
+      "Ngôn Tình là nhóm truyện dành cho độc giả thích tình cảm, cảm xúc, mối quan hệ và sự trưởng thành trong tình yêu."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "do-thi",
+    "title": "Đô Thị",
+    "path": "/the-loai/do-thi",
+    "icon": "▦",
+    "color": "orange",
+    "image": "/images/do-thi.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Cuộc sống hiện đại, thương trường, năng lực đặc biệt và hành trình vươn lên.",
+    "shortDescription": "Nhịp truyện hiện đại, dễ đọc, nhiều tình tiết xoay quanh sự nghiệp và quan hệ xã hội.",
+    "countLabel": "16 truyện",
+    "readLabel": "143.2K lượt đọc",
+    "intro": [
+      "Đô Thị phù hợp với độc giả thích bối cảnh hiện đại, nhân vật phát triển nhanh và nhiều tình huống đời sống."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "lich-su",
+    "title": "Lịch Sử",
+    "path": "/the-loai/lich-su",
+    "icon": "🏛",
+    "color": "green",
+    "image": "/images/lich-su.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Dòng chảy lịch sử, những anh hùng và sự kiện hào hùng qua nhiều thời kỳ.",
+    "shortDescription": "Bối cảnh cổ đại, chiến trận, triều chính và lựa chọn của nhân vật trước thời cuộc.",
+    "countLabel": "1 truyện",
+    "readLabel": "96.4K lượt đọc",
+    "intro": [
+      "Lịch Sử dành cho độc giả thích bối cảnh thời đại, quyền mưu, chiến trận và những nhân vật bị cuốn vào biến động lớn."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "linh-di",
+    "title": "Linh Dị",
+    "path": "/the-loai/linh-di",
+    "icon": "☠",
+    "color": "purple",
+    "image": "/images/linh-di.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Những câu chuyện rùng rợn, bí ẩn và thử thách lòng dũng cảm của người đọc.",
+    "shortDescription": "Không khí lạnh, bí mật, điều khó lý giải và những nút thắt cần suy luận.",
+    "countLabel": "9 truyện",
+    "readLabel": "74.8K lượt đọc",
+    "intro": [
+      "Linh Dị phù hợp với độc giả thích sự bí ẩn, rùng rợn và cảm giác hồi hộp khi từng lớp sự thật được hé mở."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "trong-sinh",
+    "title": "Trọng Sinh",
+    "path": "/the-loai/trong-sinh",
+    "icon": "↻",
+    "color": "teal",
+    "image": "/images/trong-sinh.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Sống lại quá khứ, thay đổi số phận và nắm giữ cơ hội làm lại từ đầu.",
+    "shortDescription": "Làm lại cuộc đời, sửa sai, báo thù, chữa lành hoặc chọn một hướng đi khác.",
+    "countLabel": "9 truyện",
+    "readLabel": "88.5K lượt đọc",
+    "intro": [
+      "Trọng Sinh hấp dẫn ở cảm giác nhân vật có thêm cơ hội, kinh nghiệm và quyết tâm thay đổi kết cục cũ."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "he-thong",
+    "title": "Hệ Thống",
+    "path": "/the-loai/he-thong",
+    "icon": "⚙",
+    "color": "orange",
+    "image": "/images/he-thong.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Nhân vật có hệ thống hỗ trợ, nhiệm vụ, điểm thưởng và hành trình tăng cấp.",
+    "shortDescription": "Nhiệm vụ, điểm thưởng, mở khóa kỹ năng và cảm giác phát triển liên tục.",
+    "countLabel": "6 truyện",
+    "readLabel": "119.7K lượt đọc",
+    "intro": [
+      "Hệ Thống phù hợp với độc giả thích nhịp truyện nhanh, nhân vật tăng cấp rõ ràng và nhiều mục tiêu cụ thể."
+    ],
+    "seoReady": true
+  },
+  {
+    "slug": "nu-cuong",
+    "title": "Nữ Cường",
+    "path": "/the-loai/nu-cuong",
+    "icon": "♀",
+    "color": "rose",
+    "image": "/images/nu-cuong.webp",
+    "heroImage": "/images/category-hero.webp",
+    "description": "Nữ chính mạnh mẽ, độc lập, bản lĩnh và không chịu khuất phục số phận.",
+    "shortDescription": "Nữ chính thông minh, quyết đoán, tự đi con đường của mình và giữ quyền chủ động.",
+    "countLabel": "4 truyện",
+    "readLabel": "91.2K lượt đọc",
+    "intro": [
+      "Nữ Cường dành cho độc giả thích hình tượng nữ chính bản lĩnh, không phụ thuộc và có hành trình trưởng thành rõ nét."
+    ],
+    "seoReady": true
+  }
+]

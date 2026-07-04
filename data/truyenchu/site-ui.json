@@ -1,0 +1,61 @@
+{
+  "nav": [
+    {
+      "href": "/",
+      "label": "Trang chủ",
+      "match": "exact"
+    },
+    {
+      "href": "/the-loai",
+      "label": "Thể loại",
+      "match": "prefix"
+    },
+    {
+      "href": "/danh-sach/truyen-moi",
+      "label": "Truyện mới",
+      "match": "exact"
+    },
+    {
+      "href": "/danh-sach/truyen-hot",
+      "label": "Truyện hot",
+      "match": "exact"
+    },
+    {
+      "href": "/tim-kiem",
+      "label": "Tìm kiếm",
+      "match": "exact"
+    }
+  ],
+  "footerCategories": [
+    {
+      "href": "/the-loai/tien-hiep",
+      "label": "Tiên hiệp"
+    },
+    {
+      "href": "/the-loai/huyen-huyen",
+      "label": "Huyền huyễn"
+    },
+    {
+      "href": "/the-loai/do-thi",
+      "label": "Đô thị"
+    },
+    {
+      "href": "/the-loai/he-thong",
+      "label": "Hệ thống"
+    },
+    {
+      "href": "/the-loai/trong-sinh",
+      "label": "Trọng sinh"
+    }
+  ],
+  "readerTopics": [
+    "Trọng sinh",
+    "Hệ thống",
+    "Tiên hiệp",
+    "Huyền huyễn",
+    "Đô thị",
+    "Nữ cường",
+    "Tu luyện",
+    "Đan dược"
+  ]
+}
