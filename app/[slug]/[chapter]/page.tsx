@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getChapterPage, stories } from "@/lib/data";
-import { breadcrumbJsonLd, createMetadata, JsonLd } from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd, createMetadata, JsonLd } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ slug: string; chapter: string }> };
 
@@ -19,8 +19,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!page) return {};
   return createMetadata({
     title: page.title,
-    excerpt: page.excerpt,
+    description: page.excerpt,
     path: page.path,
+    type: "article",
+    modifiedTime: page.updatedAt,
     keywords: [page.story.title, `chương ${page.chapterNumber}`, "tóm tắt chương", "ghi chú đọc"],
     noIndex: !page.seoReady,
   });
@@ -40,6 +42,12 @@ export default async function ChapterPage({ params }: PageProps) {
 
   return (
     <>
+      <JsonLd data={articleJsonLd({
+        title: page.title,
+        description: page.excerpt,
+        path: page.path,
+        dateModified: page.updatedAt,
+      })} />
       <JsonLd data={breadcrumbJsonLd([
         { name: "Trang chủ", path: "/" },
         { name: page.story.title, path: page.story.path },
